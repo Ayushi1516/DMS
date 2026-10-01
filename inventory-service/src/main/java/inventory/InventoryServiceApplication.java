@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class InventoryServiceApplication {
 
 	public static void main(String[] args) {
+		System.out.println("Inventory service started...");
 		SpringApplication.run(InventoryServiceApplication.class, args);
 	}
 
